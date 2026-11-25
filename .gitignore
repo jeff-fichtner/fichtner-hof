@@ -1,0 +1,15 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Environment: never committed until the repo adopts the 1Password reference convention
+.env*
+
+# Editor / OS
+.DS_Store
+
+# Spec Kit scaffolding: generated or machine-local, never committed
+.specify/extensions/*/.specify-dev/
+.specify/extensions/*/local-config.yml
+.claude/settings.local.json
+specs/**/*.html

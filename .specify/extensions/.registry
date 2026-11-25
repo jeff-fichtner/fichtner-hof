@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "extensions": {
+    "engine": {
+      "version": "2.0.2",
+      "source": "local",
+      "manifest_hash": "sha256:de193fcfa20cf37da71578184929707eab7bb82a78c16c7b5f58062ba1a7d80a",
+      "enabled": true,
+      "priority": 10,
+      "registered_commands": {
+        "claude": [
+          "speckit.engine.verify",
+          "speckit.engine.close"
+        ]
+      },
+      "registered_skills": [],
+      "installed_at": "2026-11-25T21:46:35.963057+00:00"
+    },
+    "git-lifecycle": {
+      "version": "2.0.2",
+      "source": "local",
+      "manifest_hash": "sha256:e405b3b160a14243cb720a49cf04bea49f9a259fd59387043ac2631c1dc97018",
+      "enabled": true,
+      "priority": 10,
+      "registered_commands": {
+        "claude": [
+          "speckit.git-lifecycle.specify-branch",
+          "speckit.git-lifecycle.commit"
+        ]
+      },
+      "registered_skills": [],
+      "installed_at": "2026-11-25T21:46:36.107242+00:00"
+    },
+    "review-loop": {
+      "version": "2.0.2",
+      "source": "local",
+      "manifest_hash": "sha256:637441d714ace20dd0aa855a452121bd073229332a7f45f3a79cb06dd464e5b6",
+      "enabled": true,
+      "priority": 10,
+      "registered_commands": {
+        "claude": [
+          "speckit.review-loop.run"
+        ]
+      },
+      "registered_skills": [],
+      "installed_at": "2026-11-25T21:46:36.251409+00:00"
+    }
+  }
+}
