@@ -9,7 +9,7 @@ FOCUS.md: worked only on Jeff's word.
 - **Personal details:** the roadmap names the house's street address, a choice Jeff made knowingly
   when the repo went public. Add no other personal detail (names with phone numbers or email
   addresses, guests' details) to anything committed here.
-- **Spec engine:** `snackbyte-speckit-engine` (deprecated; its successor is not published yet),
+- **Spec engine:** `snackbyte-speckit-engine` (the engine in use today; a successor replaces it later),
   installed with `specify extension add --dev`, local plug. A `--dev` re-install writes the
   `.claude/skills/speckit-*` mirrors back as symlinks into a gitignored folder. Replace them
   with files again right after any re-install:
